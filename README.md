@@ -11,7 +11,7 @@ into your provided sqlite schema.
 
 The result of the exercise is the completed code logic as well as the sqlite db file which contains the applied schema (table created).
 
-The next interview will build on your solution to this exercise, so be ready to defend your solution and enhance it!
+The next interview will build on your solution to this exercise, so be ready to talk through your solution and enhance it!
 
 ## Not Required
 - Tests
