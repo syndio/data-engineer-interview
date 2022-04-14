@@ -2,8 +2,11 @@
 
 This exercise is about creating a relational schema and applying ETL logic to ingest the provided data.
 
-3 csv data files will be provided to you with varying shapes. Your task is to identify a reasonable relational schema to ingest
-data from all 3 files into.
+Three CSV files are provided in the `sample_customer_data` folder. Your task is to ingest these files into a reasonable simple relational schema. It may be important to note:
+- These files represent uploads from three (fictionalized) Syndio clients. They contain data about (also fictionalized) employees at each client.
+- You can assume the `employee_id` column is a globally-specific ID (if two rows have the same `employee_id`, they are referring to the same person).
+- These files are denormalized; for the purposes of this exercise, please implement a simple normalized schema.
+- These fictionalized companies may have included typing/naming errors when uploading their data.
 
 You may choose to implement this exercise in either Golang or Python; the skeleton exercise for each language is provided
 here alongside this readme. Pick one of them and implement the transform of the incoming data files and insert the records
@@ -24,7 +27,7 @@ The next interview will build on your solution to this exercise, so be ready to 
 - We'll run it and prepare feedback for the next part of the interview (if applicable)
 
 ## Notes
-- We expect this to take no more than 90 minutes, please try and limit your effort to that window.
+- We expect this to take no more than 120 minutes, please try and limit your effort to that window.
 - Anything extra (tests, other logic outside of the basic ETL) is not worth bonus points
 - We truly value your time and just want a basic benchmark and common piece of code to use in future interviews.
-- If we bring you in for in-person interviews we'll expand on this submission.
+- If we bring you in for in-person interviews we'll expand on this submission; don't spend too much time on individual minor decisions, as your overall thought process / architecture are most important.

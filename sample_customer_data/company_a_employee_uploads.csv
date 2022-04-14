@@ -1,0 +1,532 @@
+employee_id,employee_job_grp,employee_job_lvl,employee_job_title,employee_gender,employee_race,employee_compensation,employee_years_of_experience,employee_time_in_role,employee_geo_zone,employee_city,employee_state,geo_zone_id,geo_zone_cost_of_living_factor,company_name,company_headquarters_city,company_headquarters_state,company_sector,company_signed_syndio_contract_on,data_uploaded_on
+2360,Designers,Individual Contributor,Design Intern,female,white,32351.61416,4.0,4.0,Geo Zone 2,Miami,FL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2361,Designers,Individual Contributor,Design Intern,male,black,50160.03,2.0,2.0,Geo Zone 4,San Francisco,CA,4444,1.25,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2362,Designers,Individual Contributor,Design Assistant,female,,55543.62075,3.0,1.0,Geo Zone 2,Miami,FL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2363,Designers,Individual Contributor,Design Coordinator I,male,black,61450.22898,3.1,3.1,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2364,Designers,Individual Contributor,Design Assistant,male,white,66449.00859,17.4,1.0,Geo Zone 4,San Francisco,CA,4444,1.25,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2365,Designers,Individual Contributor,Design Coordinator I,female,white,69755.1395,7.0,4.87,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2366,Designers,Individual Contributor,Design Coordinator I,male,white,76161.90387,,,Geo Zone 4,San Francisco,CA,4444,1.25,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2367,Designers,Individual Contributor,Design Coordinator II,male,white,82797.21119,1.9,1.9,Geo Zone 4,San Francisco,CA,4444,1.25,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2368,Designers,Individual Contributor,Design Coordinator I,female,black,3440174.309,18.9,5.0,Geo Zone 2,Miami,FL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2369,Designers,Individual Contributor,Designer,female,hispanic,162193.694,3.1,2.0,Geo Zone 1,Ithaca,NY,1111,0.8,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2370,Designers,Individual Contributor,Designer,female,,162193.694,3.1,3.1,Geo Zone 1,Ithaca,NY,1111,0.8,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2371,Designers,Individual Contributor,Designer,female,hispanic,162193.694,3.1,,Geo Zone 1,Ithaca,NY,1111,0.8,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2372,Designers,Individual Contributor,Design Coordinator II,female,,3887994.297,,4.0,Geo Zone 2,Miami,FL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2980,IT,Individual Contributor,System Administrator,female,white,62631.87201,12.35183901,0.6654393,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2981,IT,Individual Contributor,System Administrator,female,white,65020.08735,7.249912292,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2982,IT,Individual Contributor,System Administrator,female,white,67099.8779,11.58603358,0.8836454,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2983,IT,Individual Contributor,System Administrator,female,white,67600.10691,5.464452385,0.6332554,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2984,IT,Individual Contributor,System Administrator,female,white,68045.80841,10.36438481,1.4149011,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2985,IT,Individual Contributor,System Administrator,female,white,68613.05099,12.36779503,1.3642888,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2986,IT,Individual Contributor,System Administrator,male,white,69102.46235,6.364812443,0.8427967,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2987,IT,Individual Contributor,System Administrator II,female,white,70666.8544,13.83936543,1.4586937,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2988,IT,Individual Contributor,System Administrator II,female,white,71098.73655,9.914787259,1.224492,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2989,IT,Individual Contributor,System Administrator II,female,white,72174.85195,26.93832414,0.9684691,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2990,IT,Individual Contributor,System Administrator II,female,white,73466.69132,21.40404379,0.933952,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2991,IT,Individual Contributor,System Administrator II,male,white,73655.09944,0.729158356,0.7291584,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2992,IT,Individual Contributor,System Administrator II,male,white,74220.1654,2.228371107,1.184133,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2993,IT,Individual Contributor,Assistant Network Engineer,female,asian,76837.94937,18.38549095,2.5423153,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2994,IT,Individual Contributor,Assistant Network Engineer,male,white,78506.34816,20.54591858,2.7271615,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2995,IT,Individual Contributor,Assistant Network Engineer,male,white,78986.89325,24.47408625,1.9201091,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2996,IT,Individual Contributor,Assistant Network Engineer,male,white,80137.75095,10.37306827,1.294018,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2997,IT,Individual Contributor,Assistant Network Engineer,male,hispanic,80247.05418,2.563619194,2.5636192,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2998,IT,Individual Contributor,Assistant Network Engineer,female,black,80736.58792,24.20343653,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+2999,IT,Individual Contributor,Assistant Network Engineer,male,white,80905.40596,,2.8648162,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3000,IT,Individual Contributor,Assistant Network Engineer,female,white,80908.74406,,1.5681408,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3001,IT,Individual Contributor,Assistant Network Engineer,male,white,81249.34094,17.80265209,2.0087155,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3002,IT,Individual Contributor,Assistant Network Engineer,female,white,81258.02041,8.785457742,2.2663015,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3003,IT,Individual Contributor,Assistant Network Engineer,female,white,82273.2598,,3.0720477,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3004,IT,Individual Contributor,Assistant Network Engineer,female,white,82795.88476,24.16234317,2.7761694,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3005,IT,Individual Contributor,Assistant Network Engineer,male,white,83030.25892,3.469661468,1.8521868,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3006,IT,Individual Contributor,Assistant Network Engineer,male,white,83051.26437,18.27881564,2.2911311,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3007,IT,Individual Contributor,Assistant Network Engineer,female,white,83639.20845,7.955516055,0.4841828,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3008,IT,Individual Contributor,Assistant Network Engineer,male,white,84164.53899,5.267309579,2.1412465,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3009,IT,Individual Contributor,Assistant Network Engineer,male,white,84416.64502,4.301893772,4.3018938,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3010,IT,Individual Contributor,Assistant Network Engineer,female,white,84596.08892,3.523615144,3.5236151,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3011,IT,Individual Contributor,Assistant Network Engineer,female,white,84649.99282,17.98312211,3.1669406,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3012,IT,Individual Contributor,Assistant Network Engineer,female,white,85148.75778,10.30591603,2.539807,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3013,IT,Individual Contributor,Assistant Network Engineer,male,white,85258.39779,3.92427634,2.720235,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3014,IT,Individual Contributor,Assistant Network Engineer,male,white,85369.77029,9.762624461,3.3398717,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3015,IT,Individual Contributor,Assistant Network Engineer,male,white,85505.99294,22.26780242,3.5494074,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3016,IT,Individual Contributor,Assistant Network Engineer,male,white,85510.00138,,0.7023983,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3017,IT,Individual Contributor,Software Engineer,female,white,85561.26757,,3.5371434,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3018,IT,Individual Contributor,Software Engineer,male,white,85604.24575,13.93344371,2.7594476,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3019,IT,Individual Contributor,Software Engineer,male,white,85689.24523,3.709959214,2.401632,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3020,IT,Individual Contributor,Software Engineer,female,white,86608.88887,3.226404925,0.9747012,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3021,IT,Individual Contributor,Software Engineer,male,white,86614.89448,21.02099281,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3022,IT,Individual Contributor,Software Engineer,male,white,86863.25701,4.357107981,1.4924824,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3023,IT,Individual Contributor,Software Engineer,male,white,87048.63339,30.36997647,1.3110349,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3024,IT,Individual Contributor,Software Engineer,male,asian,87241.02831,11.00684763,0.931528,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3025,IT,Individual Contributor,Software Engineer,female,white,87355.27545,16.53957713,2.768661,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3026,IT,Individual Contributor,Software Engineer,male,white,87687.59112,14.80715752,1.3256939,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3027,IT,Individual Contributor,Software Engineer,female,white,87711.33552,2.828640511,1.1499755,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3028,IT,Individual Contributor,Software Engineer,male,white,87995.30328,,3.0109191,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3029,IT,Individual Contributor,Software Engineer,male,white,88665.69908,19.62752142,2.4229958,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3030,IT,Individual Contributor,Software Engineer,male,white,89363.76799,35.47346134,0.4070239,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3031,IT,Individual Contributor,Software Engineer,male,white,89773.51567,3.109198317,0.3935562,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3032,IT,Individual Contributor,Software Engineer,male,white,89795.35647,8.195791332,3.3575971,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3033,IT,Individual Contributor,Software Engineer,male,white,90091.55858,12.85126163,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3034,IT,Individual Contributor,Software Engineer,male,white,90855.63554,12.11820688,3.2034824,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3035,IT,Individual Contributor,Software Engineer,female,white,91419.27778,12.94449509,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3036,IT,Individual Contributor,Software Engineer,female,white,91532.44962,6.824624881,0.7335469,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3037,IT,Individual Contributor,Software Engineer,male,asian,91600.71025,,4.9391775,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3038,IT,Individual Contributor,Software Engineer,male,white,91807.91562,2.353913749,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3039,IT,Individual Contributor,Software Engineer,male,white,92413.82989,7.193581923,0.9511753,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3040,IT,Individual Contributor,Software Engineer,male,white,92440.46128,6.94943509,0.3827888,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3041,IT,Individual Contributor,Software Engineer,female,white,92468.61049,13.29283096,2.2731923,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3042,IT,Individual Contributor,Software Engineer,female,white,92610.00285,6.254486411,0.3049631,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3043,IT,Individual Contributor,Software Engineer,male,white,92657.12064,9.137586474,3.1402533,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3044,IT,Individual Contributor,Software Engineer,male,white,93150.06976,11.06447071,0.8629652,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3045,IT,Individual Contributor,Software Engineer,female,white,93767.9746,2.956906191,2.9569062,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3046,IT,Individual Contributor,Software Engineer,male,hispanic,93772.40489,5.931049898,2.0081345,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3047,IT,Individual Contributor,Software Engineer,male,white,94337.73665,,0.3773755,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3048,IT,Individual Contributor,Software Engineer,female,white,94352.1046,19.34418674,0.5137557,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3049,IT,Individual Contributor,Software Engineer,male,white,94360.55867,19.35221547,0.8946662,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3050,IT,Individual Contributor,Software Engineer,male,white,94363.01611,21.99750849,1.3944558,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3051,IT,Individual Contributor,Software Engineer,female,white,95044.1336,2.908511949,2.9085119,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3052,IT,Individual Contributor,Software Engineer,male,white,95479.53168,17.87740711,4.8372085,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3053,IT,Individual Contributor,Software Engineer,female,white,95724.25277,26.00920182,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3054,IT,Individual Contributor,Software Engineer,male,white,95855.19989,12.94078211,2.0623714,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3055,IT,Individual Contributor,Software Engineer,male,white,95950.27503,14.82225132,0.8609416,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3056,IT,Individual Contributor,Software Engineer,male,white,95952.54049,18.55500185,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3057,IT,Individual Contributor,Software Engineer,male,white,95963.32605,4.914465139,4.9144651,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3058,IT,Individual Contributor,Software Engineer,male,white,96560.67457,12.76664276,0.4157276,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3059,IT,Individual Contributor,Network Engineer,male,white,96848.98161,2.026376191,2.0263762,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3060,IT,Individual Contributor,Network Engineer,male,white,96976.99673,13.47912075,0.5937983,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3061,IT,Individual Contributor,Network Engineer,female,hispanic,97152.93102,6.535422001,3.511449,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3062,IT,Individual Contributor,Network Engineer,male,white,97570.59875,4.150688965,1.0930951,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3063,IT,Individual Contributor,Network Engineer,male,white,97596.49551,12.56264633,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3064,IT,Individual Contributor,Network Engineer,male,hispanic,98264.66969,0.343274486,0.3432745,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3065,IT,Individual Contributor,Network Engineer,male,white,98593.16774,9.717447456,5.5904922,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3066,IT,Individual Contributor,Network Engineer,female,white,98700.72859,17.89539452,2.0704419,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3067,IT,Individual Contributor,Network Engineer,male,white,98735.70138,16.89895684,0.6670414,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3068,IT,Individual Contributor,Network Engineer,female,white,98756.4879,1.426117075,1.4261171,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3069,IT,Individual Contributor,Network Engineer,male,white,98983.26649,,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3070,IT,Individual Contributor,Network Engineer,female,white,99011.44127,20.09870359,4.2538483,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3071,IT,Individual Contributor,Network Engineer,male,white,99209.1416,14.97317093,4.6352271,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3072,IT,Individual Contributor,Network Engineer,male,white,99372.82683,2.542289021,1.9951955,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3073,IT,Individual Contributor,Network Engineer,male,white,99691.98143,19.96914704,2.6379632,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3074,IT,Individual Contributor,Network Engineer,male,white,99772.35601,15.7436213,5.1543381,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3075,IT,Individual Contributor,Network Engineer,male,white,100604.4189,22.98621814,2.6499626,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3076,IT,Individual Contributor,Network Engineer,male,white,100616.7145,,3.5912325,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3077,IT,Individual Contributor,Network Engineer,male,white,100616.7346,11.18636289,2.4028272,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3078,IT,Individual Contributor,Network Engineer,male,white,100988.3206,3.803047135,3.2510188,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3079,IT,Individual Contributor,Network Engineer,male,white,101028.9626,3.303427473,3.3034275,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3080,IT,Individual Contributor,Network Engineer,male,white,101126.0431,19.64966675,3.2264276,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3081,IT,Individual Contributor,Network Engineer,female,white,101612.093,12.46259774,6.0944254,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3082,IT,Individual Contributor,Network Engineer,male,two or more,101768.5598,2.068220667,2.0682207,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3083,IT,Individual Contributor,Network Engineer,female,white,101964.7624,8.211807792,0.8710064,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3084,IT,Individual Contributor,Software Engineer II,female,white,102060.45,20.80207069,2.0712309,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3085,IT,Individual Contributor,Software Engineer II,female,white,102210.2477,3.199455411,3.1994554,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3086,IT,Individual Contributor,Software Engineer II,male,white,102233.0724,22.43850118,3.2285815,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3087,IT,Individual Contributor,Software Engineer II,male,white,102302.5806,6.626957404,1.0376022,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3088,IT,Individual Contributor,Software Engineer II,female,white,102761.5396,21.014584,7.4783041,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3089,IT,Individual Contributor,Software Engineer II,male,white,103390.8983,25.78786095,1.3007087,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3090,IT,Individual Contributor,Software Engineer II,male,white,103682.1168,25.24179782,0.5062395,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3091,IT,Individual Contributor,Software Engineer II,female,white,103716.52,22.37917444,1.8662959,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3092,IT,Individual Contributor,Software Engineer II,male,asian,103793.5679,6.974123002,2.8065174,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3093,IT,Individual Contributor,Software Engineer II,male,white,103983.8756,15.13202914,1.2012083,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3094,IT,Individual Contributor,Software Engineer II,female,hispanic,104120.6779,9.677524643,1.2337724,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3095,IT,Individual Contributor,Software Engineer II,male,white,104126.625,,1.2620811,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3096,IT,Individual Contributor,Software Engineer II,male,white,104431.7109,21.14394622,4.498584,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3097,IT,Individual Contributor,Software Engineer II,female,white,104559.5172,21.3796703,2.6194916,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3098,IT,Individual Contributor,Software Engineer II,female,white,104568.3879,21.62821216,2.1995892,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3099,IT,Individual Contributor,Software Engineer II,male,white,104958.4848,28.93287512,1.2111761,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3100,IT,Individual Contributor,Software Engineer II,male,white,105087.1336,12.85787829,2.1339474,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3101,IT,Individual Contributor,Software Engineer II,male,white,105106.0362,2.393750646,1.488422,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3102,IT,Individual Contributor,Software Engineer II,male,white,105812.0521,5.882415378,5.8824154,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3103,IT,Individual Contributor,Software Engineer II,male,white,106146.8915,13.07165555,2.9804479,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3104,IT,Individual Contributor,Software Engineer II,female,white,106752.7889,2.424442114,2.4244421,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3105,IT,Individual Contributor,Software Engineer II,female,white,106758.2319,,2.123283,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3106,IT,Individual Contributor,Software Engineer II,male,white,106929.7135,2.840368499,2.8403685,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3107,IT,Individual Contributor,Software Engineer II,male,white,106943.0326,10.91937568,5.4474389,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3108,IT,Individual Contributor,Software Engineer II,female,white,106990.6756,,4.8664285,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3109,IT,Individual Contributor,Software Engineer II,female,white,106991.9509,2.287489259,0.4048339,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3110,IT,Individual Contributor,Software Engineer II,male,white,107042.7815,40.5624433,4.9201639,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3111,IT,Individual Contributor,Software Engineer II,female,asian,107093.2789,,6.1304085,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3112,IT,Individual Contributor,Software Engineer II,male,white,107191.6073,19.2109702,2.8531486,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3113,IT,Individual Contributor,Software Engineer II,male,white,107193.5813,15.80804599,8.7047467,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3114,IT,Individual Contributor,Software Engineer II,female,white,107227.7077,17.17109638,4.187979,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3115,IT,Individual Contributor,Software Engineer II,male,white,107439.4857,12.85642964,0.2435194,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3116,IT,Individual Contributor,Software Engineer II,male,white,107673.0711,6.900691478,6.9006915,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3117,IT,Individual Contributor,Software Engineer II,female,white,107720.0387,5.251048482,3.7365479,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3118,IT,Individual Contributor,Software Engineer II,female,white,108156.1193,0.819950337,0.8199503,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3119,IT,Individual Contributor,Software Engineer II,female,white,108616.8902,11.24727259,0.3041085,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3120,IT,Individual Contributor,Software Engineer II,female,white,108853.4216,25.85817577,7.0379639,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3121,IT,Individual Contributor,Software Engineer II,male,white,108930.7024,7.260656453,0.8977869,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3122,IT,Individual Contributor,Software Engineer II,female,white,109603.8312,30.19233486,1.3941747,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3123,IT,Individual Contributor,Software Engineer II,male,white,109907.16,11.07175901,1.4554789,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3124,IT,Individual Contributor,Software Engineer II,male,black,110023.4346,6.254999701,6.2549997,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3125,IT,Individual Contributor,Software Engineer II,female,white,110183.42,25.99667536,4.0754214,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3126,IT,Individual Contributor,Software Engineer II,male,white,110734.0094,11.16885928,7.1795208,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3127,IT,Individual Contributor,Software Engineer II,female,white,110830.1737,1.20682367,1.2068237,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3128,IT,Individual Contributor,Software Engineer II,female,white,111068.149,12.23422159,0.3685545,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3129,IT,Individual Contributor,Software Engineer II,female,white,111461.1231,2.312836399,2.3128364,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3130,IT,Individual Contributor,Software Engineer II,male,white,111722.537,27.59523197,4.3331976,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3131,IT,Individual Contributor,Software Engineer II,male,white,112438.0863,4.562150879,4.5621509,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3132,IT,Individual Contributor,Software Engineer II,male,white,112960.3156,14.08336496,0.8944237,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3133,IT,Individual Contributor,Software Engineer II,male,white,112965.4555,15.66073954,1.7432252,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3134,IT,Individual Contributor,Senior Software Engineer,female,asian,113097.911,,6.0068161,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3135,IT,Individual Contributor,Senior Software Engineer,male,white,113231.683,30.44834025,0.481866,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3136,IT,Individual Contributor,Senior Software Engineer,female,white,113332.1465,21.23912926,0.9887777,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3137,IT,Individual Contributor,Senior Software Engineer,male,white,113432.4377,4.548647848,1.2163703,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3138,IT,Individual Contributor,Senior Software Engineer,female,white,113568.1404,23.67700274,2.0512159,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3139,IT,Individual Contributor,Senior Software Engineer,female,white,113803.8583,,3.4896079,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3140,IT,Individual Contributor,Senior Software Engineer,male,white,113889.3677,12.57732942,1.1502133,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3141,IT,Individual Contributor,Senior Software Engineer,female,white,114127.6516,1.833686634,1.8336866,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3142,IT,Individual Contributor,Senior Software Engineer,male,white,114725.0248,11.55702205,5.0693682,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3143,IT,Individual Contributor,Senior Software Engineer,female,white,114752.1135,0.850418622,0.8504186,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3144,IT,Individual Contributor,Senior Software Engineer,female,white,114838.3211,8.473093487,1.7887249,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3145,IT,Individual Contributor,Senior Software Engineer,female,white,114972.5532,11.56560307,5.1509701,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3146,IT,Individual Contributor,Senior Software Engineer,male,black,115268.0248,19.7118474,5.4696524,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3147,IT,Individual Contributor,Senior Software Engineer,female,white,115407.4954,13.81417647,1.3999038,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3148,IT,Individual Contributor,Senior Software Engineer,female,white,115540.8086,12.47548392,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3149,IT,Individual Contributor,Senior Software Engineer,female,white,116137.629,27.43030531,0.7863397,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3150,IT,Individual Contributor,Senior Software Engineer,female,white,116189.2962,17.65810858,0.610363,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3151,IT,Individual Contributor,Senior Software Engineer,male,white,117058.6403,,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3152,IT,Individual Contributor,Senior Software Engineer,male,white,117131.697,12.70939795,1.0721659,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3153,IT,Individual Contributor,Senior Software Engineer,female,white,117439.0228,10.65911435,1.6313257,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3154,IT,Individual Contributor,Senior Software Engineer,female,white,117758.8312,15.87514319,2.1384118,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3155,IT,Individual Contributor,Senior Software Engineer,female,white,117861.7695,0.753809926,0.7538099,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3156,IT,Individual Contributor,Senior Software Engineer,female,white,118134.2855,5.063101045,5.063101,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3157,IT,Individual Contributor,Senior Software Engineer,female,white,118187.6674,9.305906716,9.3059067,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3158,IT,Individual Contributor,Senior Software Engineer,male,white,118435.5227,5.992119036,0.8086117,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3159,IT,Individual Contributor,Senior Software Engineer,female,white,118514.6384,8.577186194,0.7798054,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3160,IT,Individual Contributor,Senior Software Engineer,female,two or more,118598.0833,,7.5122677,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3161,IT,Individual Contributor,Senior Software Engineer,female,white,118977.791,6.450341547,6.4503415,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3162,IT,Individual Contributor,Senior Software Engineer,male,white,119090.2163,23.21098417,2.3802283,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3163,IT,Individual Contributor,Senior Software Engineer,female,white,119108.0149,27.97273033,2.4721535,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3164,IT,Individual Contributor,Senior Software Engineer,male,white,119661.5351,,3.8222998,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3165,IT,Individual Contributor,Senior Software Engineer,female,white,120332.1889,8.71804055,8.7180405,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3166,IT,Individual Contributor,Senior Software Engineer,male,white,120339.4949,,1.2236725,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3167,IT,Individual Contributor,Senior Software Engineer,male,white,120478.8566,14.28138412,1.2034499,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3168,IT,Individual Contributor,Senior Software Engineer,male,white,120489.2446,10.33213456,3.7635984,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3169,IT,Individual Contributor,Senior Software Engineer,male,white,120529.1301,22.27789022,1.226548,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3170,IT,Individual Contributor,Senior Software Engineer,male,two or more,120587.2481,6.962485589,0.7762993,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3171,IT,Individual Contributor,Senior Software Engineer,male,white,121142.5823,26.13020955,1.3017439,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3172,IT,Individual Contributor,Senior Software Engineer,female,white,121231.1579,4.112360105,3.0620406,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3173,IT,Individual Contributor,Senior Software Engineer,male,white,121233.1705,18.57860688,7.3198364,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3174,IT,Individual Contributor,Senior Software Engineer,male,white,121552.3321,15.91318318,1.0742756,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3175,IT,Individual Contributor,Senior Software Engineer,male,white,121593.2506,3.139289604,0.2381556,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3176,IT,Individual Contributor,Senior Software Engineer,female,white,121602.6153,,3.7138472,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3177,IT,Individual Contributor,Senior Software Engineer,female,white,121607.6295,1.910600898,1.9106009,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3178,IT,Individual Contributor,Senior Software Engineer,male,white,121651.327,6.228645965,2.0270296,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3179,IT,Individual Contributor,Senior Software Engineer,male,white,121906.5069,5.748179247,5.7481792,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3180,IT,Individual Contributor,Senior Software Engineer,female,white,122275.1646,7.584524515,2.0505798,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3181,IT,Individual Contributor,Senior Software Engineer,female,white,122608.0942,2.219462325,2.2194623,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3182,IT,Individual Contributor,Senior Software Engineer,female,white,122615.332,14.4405439,7.5995509,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3183,IT,Individual Contributor,Senior Software Engineer,male,white,123291.4455,10.27172376,6.4905457,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3184,IT,Individual Contributor,Senior Software Engineer,female,white,123344.1709,5.479475318,1.8016188,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3185,IT,Individual Contributor,Senior Software Engineer,male,white,123492.4139,21.17622271,2.3145804,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3186,IT,Individual Contributor,Senior Software Engineer,female,white,123535.6109,20.27801281,0.2830489,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3187,IT,Individual Contributor,Senior Software Engineer,male,white,123536.1946,,2.1649823,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3188,IT,Individual Contributor,Senior Software Engineer,male,white,123565.2307,17.81059942,2.8690474,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3189,IT,Individual Contributor,Senior Software Engineer,male,white,123967.3389,24.76051383,3.4604093,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3190,IT,Individual Contributor,Senior Software Engineer,female,asian,124231.4349,7.080578051,7.0805781,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3191,IT,Individual Contributor,Senior Software Engineer,female,white,124255.6127,17.38827438,0.4242471,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3192,IT,Individual Contributor,Senior Software Engineer,female,white,124431.6907,14.0572004,3.7557604,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3193,IT,Individual Contributor,Senior Software Engineer,male,white,124461.9316,4.113127544,4.1131275,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3194,IT,Individual Contributor,Senior Software Engineer,female,white,124525.3478,7.563676701,3.4493815,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3195,IT,Individual Contributor,Senior Software Engineer,female,white,124677.0202,6.080240378,3.2868259,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3196,IT,Individual Contributor,Senior Software Engineer,male,white,125097.911,9.041408578,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3197,IT,Individual Contributor,Senior Software Engineer,female,white,125160.4034,,4.0404811,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3198,IT,Individual Contributor,Senior Software Engineer,female,white,125321.7476,2.795626683,2.7956267,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3199,IT,Individual Contributor,Senior Software Engineer,male,white,125358.7674,20.88460662,0.9837361,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3200,IT,Individual Contributor,Senior Software Engineer,male,white,125471.1032,,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3201,IT,Individual Contributor,Senior Software Engineer,female,white,125480.5547,,2.6275224,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3202,IT,Individual Contributor,Senior Software Engineer,male,white,125557.6594,15.26433665,0.9422458,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3203,IT,Individual Contributor,Senior Software Engineer,female,white,125559.6659,3.068826073,3.0688261,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3204,IT,Individual Contributor,Senior Software Engineer,male,white,125590.7471,16.88366427,1.420288,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3205,IT,Individual Contributor,Senior Software Engineer,male,white,125602.5178,5.947977778,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3206,IT,Individual Contributor,Senior Software Engineer,male,white,125925.9232,15.35589533,2.2825071,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3207,IT,Individual Contributor,Senior Software Engineer,male,white,125992.6553,4.222719472,0.3632751,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3208,IT,Individual Contributor,Senior Software Engineer,male,white,126118.3547,13.98004044,6.0565125,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3209,IT,Individual Contributor,Senior Software Engineer,male,white,126498.9273,30.89691935,3.908461,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3210,IT,Individual Contributor,Senior Software Engineer,male,white,126801.5452,9.899932851,9.8999329,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3211,IT,Individual Contributor,Senior Software Engineer,male,white,127039.8756,5.90285237,5.9028524,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3212,IT,Individual Contributor,Senior Software Engineer,male,white,127091.5969,24.10955897,0.7449714,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3213,IT,Individual Contributor,Senior Software Engineer,female,white,127283.6622,7.285084913,1.816601,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3214,IT,Individual Contributor,Senior Software Engineer,male,white,127330.9744,16.23085071,1.6022959,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3215,IT,Individual Contributor,Senior Software Engineer,female,white,127355.0025,8.215100235,5.6159763,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3216,IT,Individual Contributor,Senior Software Engineer,male,white,128085.6442,3.670905565,1.7680834,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3217,IT,Individual Contributor,Senior Software Engineer,male,white,128224.3244,1.363512928,1.3635129,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3218,IT,Individual Contributor,Senior Software Engineer,male,white,128402.231,19.44788181,4.0652759,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3219,IT,Individual Contributor,Senior Software Engineer,male,white,128486.7318,20.0428783,10.166794,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3220,IT,Individual Contributor,Senior Software Engineer,male,white,128822.3858,7.669365369,1.0744729,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3221,IT,Individual Contributor,Senior Software Engineer,male,white,128823.5489,20.5914108,10.040761,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3222,IT,Individual Contributor,Senior Software Engineer,male,white,128864.699,12.64640004,3.1719231,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3223,IT,Individual Contributor,Senior Software Engineer,male,white,128950.5973,5.832002619,2.6938757,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3224,IT,Individual Contributor,Senior Software Engineer,female,white,129197.6696,0.261183623,0.2611836,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3225,IT,Individual Contributor,Senior Software Engineer,male,white,129426.8054,13.64945575,5.1914534,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3226,IT,Individual Contributor,Senior Software Engineer,female,white,129693.3555,16.63042505,4.2281518,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3227,IT,Individual Contributor,Senior Software Engineer,male,two or more,130498.5901,,1.6085715,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3228,IT,Individual Contributor,Senior Software Engineer,male,white,130740.2493,10.76481875,10.764819,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3229,IT,Individual Contributor,Senior Software Engineer,male,hispanic,130857.7378,4.060762399,4.0607624,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3230,IT,Individual Contributor,Senior Software Engineer,male,white,131032.374,1.2765025,1.2765025,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3231,IT,Individual Contributor,Senior Software Engineer,male,white,131216.3285,15.24981103,1.399018,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3232,IT,Individual Contributor,Senior Software Engineer,male,asian,131302.7456,22.77751698,3.7688415,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3233,IT,Individual Contributor,Senior Software Engineer,male,white,131321.5831,,2.3621314,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3234,IT,Individual Contributor,Senior Software Engineer,male,white,131508.0803,7.546063339,1.7812828,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3235,IT,Individual Contributor,Senior Software Engineer,male,white,131697.0758,0.479075901,0.4790759,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3236,IT,Individual Contributor,Senior Software Engineer,male,white,131777.2817,5.095520625,5.0955206,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3237,IT,Individual Contributor,Senior Software Engineer,male,white,131857.9731,25.73266112,1.1854121,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3238,IT,Individual Contributor,Senior Software Engineer,male,white,131990.6994,0.51959738,0.5195974,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3239,IT,Individual Contributor,Senior Software Engineer,male,white,132395.6727,33.41451645,0.4149475,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3240,IT,Individual Contributor,Senior Software Engineer,male,white,132509.9844,6.915347894,0.8583131,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3241,IT,Individual Contributor,Senior Software Engineer,male,black,132766.5016,,5.9737409,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3242,IT,Individual Contributor,Senior Software Engineer,male,white,132772.5265,,1.3772999,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3243,IT,Individual Contributor,Senior Software Engineer,female,white,132798.3549,5.093455289,1.8860606,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3244,IT,Individual Contributor,Senior Software Engineer,male,white,132876.7482,14.51492755,8.3304376,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3245,IT,Individual Contributor,Senior Software Engineer,male,white,133060.6615,2.642061229,2.4866294,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3246,IT,Individual Contributor,Senior Software Engineer,female,white,133154.81,10.49690871,1.3564147,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3247,IT,Individual Contributor,Senior Software Engineer,male,white,133179.3802,7.304431982,1.5070925,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3248,IT,Individual Contributor,Senior Software Engineer,female,white,133197.2561,,11.16866,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3249,IT,Individual Contributor,Senior Software Engineer,female,white,133219.9095,,2.7265322,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3250,IT,Individual Contributor,Senior Software Engineer,male,white,133443.5489,21.51133253,3.1123283,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3251,IT,Individual Contributor,Senior Software Engineer,male,white,133613.1447,22.17997685,1.3271076,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3252,IT,Individual Contributor,Senior Software Engineer,female,white,133672.8448,0.437758577,0.4377586,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3253,IT,Individual Contributor,Senior Software Engineer,male,white,133961.5393,23.91643572,0.6901079,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3254,IT,Individual Contributor,Senior Software Engineer,male,black,134345.7519,,1.0362452,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3255,IT,Individual Contributor,Senior Software Engineer,male,white,134698.1927,12.58875669,0.9816473,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3256,IT,Individual Contributor,Senior Software Engineer,male,white,135049.8683,5.333193728,5.3331937,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3257,IT,Individual Contributor,Senior Software Engineer,female,white,135083.1582,14.58272315,1.2698,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3258,IT,Individual Contributor,Senior Software Engineer,male,white,135289.9418,19.29074426,0.9618949,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3259,IT,Individual Contributor,Senior Software Engineer,female,white,135481.1168,3.721272512,2.7716546,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3260,IT,Individual Contributor,Senior Software Engineer,male,white,135690.9946,19.64580822,1.2928549,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3261,IT,Individual Contributor,Senior Software Engineer,female,white,135817.3902,21.48534766,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3262,IT,Individual Contributor,Senior Software Engineer,male,white,135900.4705,8.417397354,4.1169365,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3263,IT,Individual Contributor,Senior Software Engineer,male,white,136039.5258,5.793622809,5.7936228,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3264,IT,Individual Contributor,Senior Software Engineer,male,white,136107.3621,,7.7607915,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3265,IT,Individual Contributor,Senior Software Engineer,female,white,136748.9233,2.793285516,2.0435476,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3266,IT,Individual Contributor,Senior Software Engineer,male,white,136847.9191,23.44598092,10.581448,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3267,IT,Individual Contributor,Senior Software Engineer,male,white,137192.94,7.353061577,4.4604411,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3268,IT,Individual Contributor,Senior Software Engineer,male,white,137718.1888,2.393894725,2.3938947,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3269,IT,Individual Contributor,Senior Software Engineer,female,white,138032.4323,17.87451131,12.249111,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3270,IT,Individual Contributor,Senior Software Engineer,male,white,138221.8345,10.22206653,10.222067,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3271,IT,Individual Contributor,Senior Software Engineer,male,white,138760.9342,2.261693334,2.2616933,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3272,IT,Individual Contributor,Senior Software Engineer,male,white,139426.1143,18.77605132,0.2556815,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3273,IT,Individual Contributor,Senior Software Engineer,female,black,139774.9715,5.174726779,5.1747268,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3274,IT,Individual Contributor,Senior Software Engineer,male,white,139811.2925,,9.2707921,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3275,IT,Individual Contributor,Senior Software Engineer,male,white,139983.9778,32.42805971,3.4887647,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3276,IT,Manager,Senior Manager IT Security,female,white,140064.6667,5.322135322,5.3221353,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3277,IT,Manager,Senior Manager IT Security,male,white,140222.6591,20.13596363,3.1886207,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3278,IT,Manager,Senior Manager IT Security,female,white,140761.3678,22.63210029,1.8184868,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3279,IT,Manager,Senior Manager IT Security,female,white,141734.1531,11.18034809,1.8672539,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3280,IT,Manager,Senior Manager IT Security,female,white,141753.7964,24.18668445,12.871634,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3281,IT,Manager,Senior Manager IT Security,male,white,141834.6701,6.557249183,6.5572492,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3282,IT,Manager,Senior Manager IT Security,female,asian,142379.6259,24.23890413,6.7774285,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3283,IT,Manager,Senior Manager IT Security,male,white,142429.0294,,1.7383033,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3284,IT,Manager,Senior Manager IT Security,male,white,142501.2294,20.88366098,6.7285841,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3285,IT,Manager,Senior Manager IT Security,male,white,143038.7417,12.78710325,12.787103,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3286,IT,Manager,Senior Manager IT Security,male,white,143846.1156,8.783836674,4.1273795,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3287,IT,Manager,Senior Manager IT Security,female,white,144027.0228,10.50213336,1.3453052,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3288,IT,Manager,Senior Manager IT Security,female,white,144433.2124,7.67160919,7.6716092,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3289,IT,Manager,Senior Manager IT Security,female,white,144527.5677,15.44236306,13.757042,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3290,IT,Manager,Senior Manager IT Security,male,white,144827.4817,21.32408119,1.6536876,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3291,IT,Manager,Senior Manager IT Security,male,white,145553.9476,26.32011612,4.4882051,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3292,IT,Manager,Senior Manager IT Security,female,white,146234.2106,25.14617417,1.5176494,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3293,IT,Manager,Senior Manager IT Security,male,white,146340.7011,22.22609926,2.8055535,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3294,IT,Manager,Senior Manager IT Security,male,white,146523.6306,,0.7036883,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3295,IT,Manager,Senior Manager IT Security,male,white,148396.9137,8.837204934,8.8372049,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3296,IT,Manager,Senior Manager IT Security,female,white,149009.1298,19.91855584,6.6242136,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3297,IT,Manager,Senior Manager IT Security,female,white,149356.9412,20.66164513,13.094841,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3298,IT,Manager,Senior Manager IT Security,male,white,150777.0603,12.48635771,8.551088,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3299,IT,Manager,Senior Manager IT Security,male,white,151210.9144,3.393687653,3.1962418,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3300,IT,Manager,Senior Manager IT Security,female,white,153276.8485,12.17896449,12.178964,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3301,IT,Manager,Senior Manager IT Security,male,white,153655.7683,5.953654092,5.9536541,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3302,IT,Manager,Senior Manager IT Security,female,white,154440.957,17.36205951,16.719249,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3303,IT,Manager,Senior Manager IT Security,male,white,155759.4332,24.00095073,11.626078,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3304,IT,Manager,Senior Manager IT Security,male,white,155970.4956,10.39140567,,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3305,IT,Manager,Senior Manager IT Security,female,hispanic,157861.6005,,13.614958,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3306,IT,Manager,Senior Manager IT Security,male,white,160542.3547,22.69674337,4.7484459,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3307,IT,Manager,Senior Manager IT Security,male,white,160986.785,18.80038722,10.084847,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3308,IT,Director,Director Information Technology,male,white,163789.0947,16.10581819,7.7312355,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3309,IT,Individual Contributor,Service Desk Analyst II,male,white,170177.0344,,9.6070381,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3310,IT,Individual Contributor,System Administrator II,female,white,172374.3027,14.19223862,10.722253,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3311,IT,Individual Contributor,Service Desk Analyst,female,two or more,176236.8469,19.66086047,19.66086,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3312,IT,Individual Contributor,Service Desk Analyst,male,white,176295.7623,19.79524293,19.795243,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3313,IT,Individual Contributor,Service Desk Analyst,male,white,177052.8081,19.34894942,18.017085,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3314,IT,Individual Contributor,Service Desk Analyst,male,white,180568.4639,14.047927,14.047927,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3315,IT,Individual Contributor,System Administrator,female,white,180647.136,,17.700622,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3316,IT,Individual Contributor,System Administrator,male,white,185266.4149,23.32816207,18.855641,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3317,IT,Individual Contributor,System Administrator,male,white,186516.8792,19.82862503,19.828625,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3318,IT,Individual Contributor,System Administrator,female,white,198041.1575,23.18551991,23.18552,Geo Zone 2,Chicago,IL,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+3319,IT,Individual Contributor,System Administrator II,male,hispanic,247897.4644,37.41434245,37.414342,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4282,Production,Supervisor/Team Lead,Production Team Lead,male,white,91471.29685,11.05595316,0.9326226,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4283,Production,Supervisor/Team Lead,Production Team Lead,male,white,91527.62134,11.61921706,3.8053862,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4284,Production,Supervisor/Team Lead,Production Team Lead,male,white,91541.05349,,2.2374345,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4285,Production,Supervisor/Team Lead,Production Team Lead,male,white,92043.16194,6.329321303,3.0019109,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4286,Production,Supervisor/Team Lead,Production Team Lead,male,white,93145.75395,,2.1032096,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4287,Production,Supervisor/Team Lead,Production Team Lead,male,white,93325.10883,3.093998557,3.0939986,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4288,Production,Supervisor/Team Lead,Production Team Lead,male,white,93383.08744,4.299271866,4.2992719,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4289,Production,Supervisor/Team Lead,Production Team Lead,male,white,93648.11565,9.137943832,2.6889121,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4253,Production,Operators,Machine Operator I,male,white,81595.32394,14.5900195,1.6348092,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4254,Production,Operators,Machine Operator I,male,white,82275.26395,3.237428592,2.2596193,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4262,Production,Operators,Machine Operator III,male,white,85945.26151,,1.318953,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4263,Production,Operators,Machine Operator III,male,white,85953.13413,11.37405117,1.7469565,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4264,Production,Operators,Machine Operator III,male,white,85994.65596,,0.615521,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4290,Production,Supervisor/Team Lead,Production Team Lead,male,hispanic,93940.58272,4.554356627,1.5816988,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4291,Production,Supervisor/Team Lead,Production Team Lead,male,white,94087.10752,17.1841203,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4292,Production,Supervisor/Team Lead,Production Team Lead,male,white,94428.2464,6.647959893,2.2672636,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4293,Production,Supervisor/Team Lead,Production Team Lead,male,white,94794.94499,3.370150284,0.8743059,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4294,Production,Supervisor/Team Lead,Production Team Lead,male,white,94840.39383,15.36444782,0.4342924,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4343,Production,Supervisor/Team Lead,Shift Supervisor,female,white,109248.2506,28.08824915,4.1332844,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4350,Production,Supervisor/Team Lead,Shift Supervisor,male,white,110197.6091,3.340672057,3.3406721,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4351,Production,Supervisor/Team Lead,Shift Supervisor,male,white,110706.036,29.25737171,2.2252074,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4352,Production,Supervisor/Team Lead,Shift Supervisor,male,white,110866.705,1.198460283,1.1984603,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4353,Production,Supervisor/Team Lead,Shift Supervisor,male,white,111032.6739,11.79461063,1.8461532,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4354,Production,Supervisor/Team Lead,Shift Supervisor,male,white,111255.4564,6.126414596,3.1188512,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4355,Production,Supervisor/Team Lead,Shift Supervisor,male,white,111323.8681,,1.4617597,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4356,Production,Supervisor/Team Lead,Shift Supervisor,male,white,111429.762,4.338957379,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4357,Production,Supervisor/Team Lead,Shift Supervisor,male,white,111503.3598,13.65659705,1.9858824,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4358,Production,Supervisor/Team Lead,Shift Supervisor,male,white,111891.4031,9.822055759,6.5657118,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4359,Production,Supervisor/Team Lead,Shift Supervisor,male,white,111916.1619,13.10043182,0.6900877,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4360,Production,Supervisor/Team Lead,Shift Supervisor,male,white,112070.9125,1.431043834,1.4310438,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4361,Production,Supervisor/Team Lead,Shift Supervisor,male,white,112390.4616,3.716535166,3.2415784,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4362,Production,Supervisor/Team Lead,Shift Supervisor,male,white,112504.1375,11.58193564,2.9547944,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4363,Production,Supervisor/Team Lead,Shift Supervisor,male,white,112585.7779,4.382334545,0.4837967,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4364,Production,Supervisor/Team Lead,Shift Supervisor,male,white,112613.0069,4.047423353,4.0474234,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4365,Production,Supervisor/Team Lead,Shift Supervisor,male,white,112851.4475,30.65812797,2.0446859,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4295,Production,Supervisor/Team Lead,Production Team Lead,male,white,95036.88863,19.21622807,6.1446381,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4296,Production,Supervisor/Team Lead,Production Team Lead,male,two or more,95326.96366,18.65420672,0.5022686,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4297,Production,Supervisor/Team Lead,Production Team Lead,male,two or more,95921.88593,1.058843717,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4298,Production,Supervisor/Team Lead,Production Team Lead,male,white,96012.1393,2.754397464,2.7543975,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4299,Production,Supervisor/Team Lead,Production Team Lead,male,white,96039.05436,16.69824992,2.8515148,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4366,Production,Supervisor/Team Lead,Shift Supervisor,male,white,112965.0261,1.977886664,1.4728659,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4448,Production,Supervisor/Team Lead,Shift Supervisor,male,white,140187.684,9.301337408,4.2205377,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4449,Production,Supervisor/Team Lead,Shift Supervisor,male,white,140368.2581,4.980284068,4.9802841,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4450,Production,Supervisor/Team Lead,Shift Supervisor,male,white,142927.6311,1.455008002,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4451,Production,Supervisor/Team Lead,Shift Supervisor,male,white,143333.8069,2.383469882,1.598543,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4452,Production,Supervisor/Team Lead,Shift Supervisor,male,hispanic,143361.3606,20.45115389,1.9603618,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4453,Production,Supervisor/Team Lead,Shift Supervisor,male,hispanic,143473.2994,7.09838206,1.5266113,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4454,Production,Supervisor/Team Lead,Shift Supervisor,male,two or more,144239.4191,11.56268289,5.725155,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4455,Production,Supervisor/Team Lead,Shift Supervisor,male,white,144316.2479,4.851537177,4.8515372,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4456,Production,Supervisor/Team Lead,Shift Supervisor,male,white,144779.3052,8.406645178,1.8280015,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4457,Production,Supervisor/Team Lead,Shift Supervisor,male,white,145010.923,13.59710459,12.971119,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4255,Production,Operators,Machine Operator I,male,asian,82865.72345,15.18802711,2.1506603,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4256,Production,Operators,Machine Operator I,male,white,83444.97033,2.000906151,2.0009062,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4257,Production,Operators,Machine Operator I,male,white,83898.18461,,2.1665234,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4265,Production,Operators,Machine Operator III,male,white,86087.53874,9.594146134,2.3514685,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4300,Production,Supervisor/Team Lead,Production Team Lead,male,black,97300.18283,13.90079357,0.8154645,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4301,Production,Supervisor/Team Lead,Production Team Lead,male,hispanic,97302.58197,9.562588112,0.9727949,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4302,Production,Supervisor/Team Lead,Production Team Lead,male,white,97344.47362,10.49623899,1.6546718,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4303,Production,Supervisor/Team Lead,Production Team Lead,male,white,97629.89633,2.125133283,2.1251333,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4304,Production,Supervisor/Team Lead,Production Team Lead,male,white,97669.09275,0.902708276,0.9027083,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4305,Production,Supervisor/Team Lead,Production Team Lead,male,white,97885.84909,2.712905417,2.021656,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4306,Production,Supervisor/Team Lead,Production Team Lead,male,white,97990.3247,24.41021175,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4307,Production,Supervisor/Team Lead,Production Team Lead,male,white,98174.84072,19.52511182,4.6700194,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4344,Production,Supervisor/Team Lead,Shift Supervisor,female,two or more,109378.2773,10.53058655,1.8802597,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4458,Production,Supervisor/Team Lead,Shift Supervisor,male,black,145116.1381,,3.8901643,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4459,Production,Supervisor/Team Lead,Shift Supervisor,male,two or more,147882.5782,8.059745529,5.9296378,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4460,Production,Supervisor/Team Lead,Shift Supervisor,male,two or more,148409.9577,12.9748571,9.1299483,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4241,Production,Operators,Assembly Worker,male,white,73785.62001,2.566112615,0.3591548,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4308,Production,Supervisor/Team Lead,Production Team Lead,male,black,98189.21434,16.35981118,3.2091069,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4309,Production,Supervisor/Team Lead,Production Team Lead,male,white,98567.175,24.67299354,3.7537079,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4310,Production,Supervisor/Team Lead,Production Team Lead,male,white,99009.20804,,3.3653936,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4311,Production,Supervisor/Team Lead,Production Team Lead,male,white,99056.66003,17.47293908,1.9753234,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4461,Production,Supervisor/Team Lead,Shift Supervisor,male,white,148721.2558,14.46461073,5.426005,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4462,Production,Supervisor/Team Lead,Shift Supervisor,male,two or more,149355.4902,11.07150036,9.9398192,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4463,Production,Supervisor/Team Lead,Shift Supervisor,male,white,151229.8285,14.12280929,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4258,Production,Operators,Machine Operator I,male,white,84371.84574,10.96211386,2.3022275,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4259,Production,Operators,Machine Operator I,male,white,84813.12078,8.720780215,3.7960461,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4260,Production,Operators,Machine Operator I,male,white,85126.63074,,1.3093603,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4261,Production,Operators,Machine Operator II,male,white,85900.03595,15.07590043,3.4366341,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4266,Production,Operators,Machine Operator III,male,black,86538.41831,,2.5316158,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4267,Production,Operators,Machine Operator III,male,black,86700.01374,2.010930721,2.0109307,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4268,Production,Operators,Machine Operator III,male,black,86997.21968,17.65278994,0.821332,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4269,Production,Operators,Machine Operator III,male,black,87345.42557,7.674017957,0.955502,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4270,Production,Operators,Machine Operator III,male,black,88711.47295,2.171689193,2.1716892,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4312,Production,Supervisor/Team Lead,Production Team Lead,male,white,99274.62799,6.49044271,2.0891576,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4313,Production,Supervisor/Team Lead,Production Team Lead,male,white,99402.57452,37.42201418,2.5140471,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4314,Production,Supervisor/Team Lead,Production Team Lead,male,white,99764.41416,12.63208474,1.960898,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4315,Production,Supervisor/Team Lead,Production Team Lead,male,white,99903.08136,0.82821244,0.8282124,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4232,Production,Operators,Assembly Worker,female,white,67652.01617,,0.6312368,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4233,Production,Operators,Assembly Worker,female,asian,68781.04425,3.627836812,0.969013,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4234,Production,Operators,Assembly Worker,female,black,69874.24743,13.99433776,0.7319898,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4242,Production,Operators,Assembly Worker,male,white,74772.05735,0.491390282,0.4913903,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4243,Production,Operators,Assembly Worker,male,white,75436.95332,4.613976101,2.0965192,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4244,Production,Operators,Assembly Worker,male,white,77117.27427,21.80696221,1.5220714,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4245,Production,Operators,Assembly Worker,male,white,77799.16579,22.91499277,1.631841,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4246,Production,Operators,Assembly Worker,male,white,77875.21398,13.97276604,2.7355591,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4247,Production,Operators,Assembly Worker,male,black,77932.7342,5.833705401,2.2003588,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4248,Production,Operators,Assembly Worker,male,black,77989.94149,12.08395542,0.5148856,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4249,Production,Operators,Assembly Worker,male,black,78182.96237,18.30171301,4.2461382,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4316,Production,Supervisor/Team Lead,Production Team Lead,male,asian,99917.23408,20.15191629,0.5843394,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4317,Production,Supervisor/Team Lead,Production Team Lead,male,white,100425.7386,17.56162419,4.7551031,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4318,Production,Supervisor/Team Lead,Production Team Lead,male,white,100556.9873,18.47329075,4.008767,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4319,Production,Supervisor/Team Lead,Production Team Lead,male,white,100651.5722,20.37185017,1.138234,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4464,Production,Supervisor/Team Lead,Shift Supervisor,male,hispanic,151341.2951,20.67107094,13.523419,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4465,Production,Supervisor/Team Lead,Shift Supervisor,male,white,153285.0799,12.6975559,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4235,Production,Operators,Assembly Worker,female,black,70525.75512,11.00829647,0.4542435,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4236,Production,Operators,Assembly Worker,female,hispanic,70628.86457,21.57889654,0.2955003,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4237,Production,Operators,Assembly Worker,female,white,71207.25049,6.139846957,1.9965102,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4238,Production,Operators,Assembly Worker,female,white,72391.67605,0.714814951,0.714815,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4239,Production,Operators,Assembly Worker,female,white,73345.46565,2.076241928,0.8099763,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4240,Production,Operators,Assembly Worker,female,white,73468.4675,0.704128502,0.7041285,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4250,Production,Operators,Assembly Worker,male,white,78758.83637,18.8436573,1.6358211,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4251,Production,Operators,Assembly Worker,male,white,78960.42075,17.10594928,1.7798328,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4252,Production,Operators,Assembly Worker,male,white,79683.75111,9.961189396,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4320,Production,Supervisor/Team Lead,Production Team Lead,male,white,101046.1171,4.417588812,4.4175888,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4321,Production,Supervisor/Team Lead,Production Team Lead,male,white,101721.698,20.7555403,2.3668511,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4322,Production,Supervisor/Team Lead,Production Team Lead,male,white,101807.7541,12.80869261,7.4198496,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4323,Production,Supervisor/Team Lead,Production Team Lead,male,white,101955.392,27.72503615,4.8067712,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4345,Production,Supervisor/Team Lead,Shift Supervisor,female,white,109509.6661,23.74661323,1.7908225,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4466,Production,Supervisor/Team Lead,Shift Supervisor,male,hispanic,153832.1556,14.31936609,14.319366,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4467,Production,Supervisor/Team Lead,Shift Supervisor,male,white,154406.2499,,10.584603,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4339,Production,Manager,Senior Production Manager,female,white,105460.864,10.81956571,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4340,Production,Manager,Senior Production Manager,female,white,107863.6787,6.707675905,6.7076759,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4341,Production,Manager,Senior Production Manager,male,white,108253.1166,3.53184963,3.5318496,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4342,Production,Manager,Senior Production Manager,male,white,109000.1817,23.9125364,3.2486891,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4271,Production,Operators,Metal Worker,female,white,88717.52503,18.63736084,1.9467444,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4272,Production,Operators,Metal Worker,female,black,88941.20381,5.003386331,3.2867674,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4273,Production,Operators,Metal Worker,female,two or more,89109.38442,25.18606762,1.2921769,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4274,Production,Operators,Metal Worker,female,two or more,89847.96097,9.849210316,2.8173822,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4275,Production,Operators,Metal Worker,female,two or more,89850.50852,16.07778117,3.2360547,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4276,Production,Operators,Metal Worker,male,black,89990.79463,10.6485478,1.0213172,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4277,Production,Operators,Metal Worker,male,black,90033.50924,7.850385704,3.3559779,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4278,Production,Operators,Metal Worker,male,white,90552.10878,3.009441476,3.0094415,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4279,Production,Operators,Metal Worker,male,white,90709.77496,17.35734599,2.3118408,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4280,Production,Operators,Metal Worker,male,black,91068.42305,2.424256558,2.4242566,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4281,Production,Operators,Metal Worker,male,white,91465.11421,13.42836214,4.4994815,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4324,Production,Supervisor/Team Lead,Production Team Lead,male,black,101969.294,15.18887087,0.3387553,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4325,Production,Supervisor/Team Lead,Production Team Lead,male,black,102044.8173,5.889821037,5.4433178,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4326,Production,Supervisor/Team Lead,Production Team Lead,male,black,102059.8653,2.851782096,2.8517821,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4327,Production,Supervisor/Team Lead,Production Team Lead,male,hispanic,102082.5046,14.78424088,3.4562799,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4328,Production,Supervisor/Team Lead,Production Team Lead,male,hispanic,102204.7443,5.836661218,0.7666429,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4329,Production,Supervisor/Team Lead,Production Team Lead,male,hispanic,102252.306,8.990229106,0.894164,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4330,Production,Supervisor/Team Lead,Production Team Lead,male,white,102490.9022,19.02426058,2.3067888,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4331,Production,Supervisor/Team Lead,Production Team Lead,male,white,102501.0609,1.351855734,1.3518557,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4468,Production,Supervisor/Team Lead,Shift Supervisor,male,white,157479.2595,7.69449341,6.2089363,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4469,Production,Supervisor/Team Lead,Shift Supervisor,male,white,161447.5136,16.86342148,16.863421,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4470,Production,Supervisor/Team Lead,Shift Supervisor,male,white,162411.5371,16.48167672,16.481677,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4472,Production,Supervisor/Team Lead,Shift Supervisor,male,white,170368.684,18.23118705,18.231187,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4473,Production,Supervisor/Team Lead,Shift Supervisor,male,white,175023.7773,,13.939781,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4474,Production,Supervisor/Team Lead,Shift Supervisor,male,white,177896.5082,,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4332,Production,Supervisor/Team Lead,Production Team Lead,male,black,102559.2529,22.86471509,5.5535392,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4333,Production,Supervisor/Team Lead,Production Team Lead,male,white,102616.7329,25.73123371,3.3488845,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4334,Production,Supervisor/Team Lead,Production Team Lead,male,white,102964.8018,20.59726126,1.2315908,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4335,Production,Supervisor/Team Lead,Production Team Lead,male,white,103351.7155,28.66583757,4.0033716,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4475,Production,Supervisor/Team Lead,Shift Supervisor,male,white,187344.7102,21.83180555,21.831806,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4476,Production,Supervisor/Team Lead,Shift Supervisor,male,hispanic,187591.708,19.23415231,19.234152,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4478,Production,Supervisor/Team Lead,Shift Supervisor,male,white,200685.4577,24.86532502,24.865325,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4336,Production,Supervisor/Team Lead,Production Team Lead,male,two or more,103457.909,2.115312725,2.1153127,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4337,Production,Supervisor/Team Lead,Production Team Lead,male,white,103964.1088,1.444293661,1.4442937,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4346,Production,Supervisor/Team Lead,Shift Supervisor,female,two or more,109766.9116,16.1414498,1.5096526,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4347,Production,Supervisor/Team Lead,Shift Supervisor,female,two or more,109776.125,6.92069674,6.9206967,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4479,Production,Supervisor/Team Lead,Shift Supervisor,male,hispanic,220084.8709,32.52399083,31.605915,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4367,Production,Supervisor/Team Lead,Shift Supervisor,male,hispanic,113127.6988,8.558797003,3.959081,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4368,Production,Supervisor/Team Lead,Shift Supervisor,male,two or more,113974.8403,18.54820865,2.2767971,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4338,Production,Supervisor/Team Lead,Production Team Lead,male,white,103998.5796,23.42403763,1.0288924,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4348,Production,Supervisor/Team Lead,Shift Supervisor,female,white,110008.7221,15.2122693,0.6062879,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4349,Production,Supervisor/Team Lead,Shift Supervisor,female,two or more,110045.2025,28.3843089,1.3979514,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4369,Production,Supervisor/Team Lead,Shift Supervisor,male,white,114063.5339,2.167944036,2.167944,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4370,Production,Supervisor/Team Lead,Shift Supervisor,male,white,114306.8158,9.082930924,,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4371,Production,Supervisor/Team Lead,Shift Supervisor,male,white,114474.9776,18.55320323,1.003036,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4372,Production,Supervisor/Team Lead,Shift Supervisor,male,white,114841.752,3.151996892,0.9178751,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4373,Production,Supervisor/Team Lead,Shift Supervisor,male,asian,115036.5078,9.726093798,1.2117663,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4374,Production,Supervisor/Team Lead,Shift Supervisor,male,white,115070.2601,15.15162455,1.3313015,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4375,Production,Supervisor/Team Lead,Shift Supervisor,male,white,115114.0803,2.791961397,2.1716116,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4376,Production,Supervisor/Team Lead,Shift Supervisor,male,white,115163.5856,,2.1535772,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4377,Production,Supervisor/Team Lead,Shift Supervisor,male,white,115536.2011,16.04622174,1.9874234,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4378,Production,Supervisor/Team Lead,Shift Supervisor,male,white,116345.3366,13.19204961,2.1897891,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
+4379,Production,Supervisor/Team Lead,Shift Supervisor,male,white,116372.337,35.2353377,0.631243,Geo Zone 2,Austin,TX,2222,0.9,Company A,Atlanta,GA,Marketing,2021-10-04,2021-10-07
