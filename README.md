@@ -1,8 +1,11 @@
 # Data Engineer Interview Take Home Exercise
 
-This exercise is about creating a relational schema and applying ETL logic to ingest the provided data.
+This exercise is about creating a relational schema, applying ETL logic to ingest the provided data, and then deriving data from your relational schema based on a business request.
 
-Three CSV files are provided in the `sample_customer_data` folder. Your task is to ingest these files into a reasonable simple relational schema. It may be important to note:
+The business request, to be derived from your schema, is as follows:
+- Our internal teams would like to see the average employee compensation for each job group by gender. 
+
+Three CSV files are provided in the `sample_customer_data` folder. Your task is to ingest these files into a reasonably simple relational schema. It may be important to note:
 - These files represent uploads from three (fictionalized) Syndio clients. They contain data about (also fictionalized) employees at each client.
 - You can assume the `employee_id` column is a globally-specific ID (if two rows have the same `employee_id`, they are referring to the same person).
 - These files are denormalized; for the purposes of this exercise, please implement a simple normalized schema.
