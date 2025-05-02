@@ -109,10 +109,11 @@ dbt (data build tool) helps transform data in your warehouse (in this case, the 
   - A short summary of your modeling decisions (e.g., why you chose certain intermediate steps or calculations).
   - Example SQL query/output demonstrating how your final model addresses the compensation comparison problem.
 - We will evaluate:
-  - Correctness of ETL and transformations.
-  - Code clarity and style.
-  - Quality and documentation of your dimensional model (grain, naming, field descriptions).
-  - Robustness of your dbt tests and field-level validation.
+  - Functionality and correctness of the ETL process.
+  - Overall code quality and adherence to best practices.
+  - Soundness and clarity of the data modeling approach.
+  - Appropriateness of data validation and testing.
+  - Quality of documentation (e.g., model/column descriptions, README notes).
 
 ---
 
