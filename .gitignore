@@ -4,3 +4,4 @@
 **/target/
 .user.yml
 .DS_Store
+.cursor

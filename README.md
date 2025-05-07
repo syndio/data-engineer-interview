@@ -4,9 +4,9 @@
 
 This exercise is designed to test your ability to:
 1. Build a Python-based ETL that ingests raw CSV files, applies basic transformations, and loads data into SQLite.
-2. Use dbt to model that raw data into a dimensional schema and answer business questions.
+2. Use dbt to model that raw data into a dimensional schema and answer a business question.
 
-You are free to use any AI assistance—but at the end we want to see your code style, your SQL modeling choices, and your test coverage.
+You are free to use any AI assistance but at the end we want to see your code style, your SQL modeling choices, and your test coverage.
 
 ---
 
@@ -44,7 +44,7 @@ You are free to use any AI assistance—but at the end we want to see your code 
 
 1. Add any external Python packages you use for the ETL script to `requirements.txt`.
 2. Implement the "transform" and "load" sections in `ingest_exercise.py`:
-   - Standardize column names (e.g. snake_case).
+   - Standardize column names.
    - Parse dates into ISO 8601.
    - Cast numeric fields.
    - Create and load into a raw table:
@@ -69,7 +69,7 @@ You are free to use any AI assistance—but at the end we want to see your code 
 **Business Problem:**
 Analyze how individual employee compensation compares to the average compensation within their defined peer group.
 A peer group is defined by `company_name`, `employee_job_grp`, and `employee_job_lvl`.
-The final model should allow slicing the comparison by various employee attributes (e.g., gender, race, location).
+The final model should allow slicing the comparison by various employee attributes (e.g., gender, race, location) and contain 1 unique row per employee_id. 
 
 **Understanding dbt for this Exercise:**
 dbt (data build tool) helps transform data in your warehouse (in this case, the SQLite database) by writing SQL `SELECT` statements. Here's a quick overview of the key files:
@@ -88,10 +88,10 @@ dbt (data build tool) helps transform data in your warehouse (in this case, the 
     ```bash
     pip install dbt-core dbt-sqlite
     ```
-3. In `models/staging/`, build the staging model `stg_employees` using `source('employees', 'raw_employees')`. Apply necessary cleaning and casting.
+3. In `models/staging/`, build the staging model `stg_employees` using `source('employees', 'raw_employees')`. Apply any necessary cleaning and casting.
 4. In `models/marts/`, build a clean `employees` dimension model by selecting and appropriately renaming/casting columns from `stg_employees`.
 5. Build the necessary models (potentially including intermediate models, though the structure is up to you) to create a final mart model that addresses the **Business Problem** defined above. You might name the final model `mart_employee_compensation_comparison` or choose another appropriate name.
-6. In your models' `schema.yml` files, define appropriate tests (e.g., not_null, unique, referential integrity, custom tests) and provide clear `description`s for each model and its columns.
+6. In your models' `schema.yml` files, define appropriate tests, and provide clear `description`s for each model and its columns.
 7. Run and test your models:
     ```bash
     # You might need to specify profiles dir and target depending on your setup
