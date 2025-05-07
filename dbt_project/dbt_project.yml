@@ -4,10 +4,10 @@ config-version: 2
 
 profile: 'employee_analytics'
 
-source-paths: ["models"]
+model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
-data-paths: ["seeds"]
+seed-paths: ["seeds"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 

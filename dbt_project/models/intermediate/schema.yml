@@ -1,6 +1,6 @@
-version: 2
+# version: 2
 
-models:
+# models:
   # Define schema specifications (descriptions, tests, etc.) for any
   # intermediate models you create here.
   #
