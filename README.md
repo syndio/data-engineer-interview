@@ -104,7 +104,7 @@ dbt (data build tool) helps transform data in your warehouse (in this case, the 
 
 ## Submission
 
-- ???
+- Zip your project and submit the archive via the Greenhouse link from your email.
 - Include in your README:
   - A short summary of your modeling decisions (e.g., why you chose certain intermediate steps or calculations).
   - Example SQL query/output demonstrating how your final model addresses the compensation comparison problem.
