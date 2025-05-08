@@ -29,8 +29,7 @@ def main():
     print(f"Total records extracted: {len(all_records)}")
 
     # transform
-    # TODO: Normalize column names to snake_case, parse dates, cast numeric fields.
-    # TODO: Calculate derived column `tenure_days` = (today - start_date).
+    # TODO: Normalize column names. Parse dates, cast numeric fields, etc.
     transformed_records = []
     for row in all_records:
         # placeholder: append row as-is
@@ -47,6 +46,7 @@ def main():
         print("Existing data cleared.")
 
         # TODO: Insert transformed_records into `raw_employees`
+        
         sqlite_conn.commit()
         cursor.close()
     except sqlite3.Error as error:
@@ -54,9 +54,6 @@ def main():
     finally:
         if sqlite_conn:
             sqlite_conn.close()
-
-    # ... insert the transformed records into your sqlite schema
-
 
 # csv_to_map takes a relative path to a csv file and returns a list of dictionaries, using the header row as the keys
 def csv_to_map(ingest_filename):

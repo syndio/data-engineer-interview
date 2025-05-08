@@ -52,7 +52,7 @@ You are free to use any AI assistance but at the end we want to see your code st
 
 3. Run and verify:
     ```bash
-    # Note: This script ingests all CSV files from the specified directory.
+    # Note: This script is already setup to ingest all CSV files from the specified directory.
     python ingest_exercise.py \
       --ingest-directory sample_data \
       --db-filename employees.sqlite
