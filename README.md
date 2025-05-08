@@ -89,7 +89,7 @@ dbt (data build tool) helps transform data in your warehouse (in this case, the 
     pip install dbt-core dbt-sqlite
     ```
 3. In `models/staging/`, build the staging model `stg_employees` using `source('employees', 'raw_employees')`. Apply any necessary cleaning and casting.
-4. In `models/marts/`, build a clean `employees` dimension model by selecting and appropriately renaming/casting columns from `stg_employees`.
+4. In `models/marts/`, build a clean `employees` dimension model from `staging` or `intermediate` models.
 5. Build the necessary models (potentially including intermediate models, though the structure is up to you) to create a final mart model that addresses the **Business Problem** defined above. You might name the final model `mart_employee_compensation_comparison` or choose another appropriate name.
 6. In your models' `schema.yml` files, define appropriate tests, and provide clear `description`s for each model and its columns.
 7. Run and test your models:
