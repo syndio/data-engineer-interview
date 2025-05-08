@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: employees
+    description: "Dimension model containing cleaned employee data. Define columns and tests here."
+    # Example structure:
+    # columns:
+    #   - name: employee_id
+    #     description: "Unique identifier for the employee (primary key)."
+    #     tests:
+    #       - unique
+    #       - not_null
+    #   - name: company_name
+    #     description: "Company name."
+    #     tests:
+    #       - not_null
+    #   ...

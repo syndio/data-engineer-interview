@@ -1,36 +1,120 @@
-# Data Engineer Interview Take Home Exercise
+# Data Engineer Take-Home Challenge
 
-This exercise is about creating a relational schema to support provided data, applying ETL logic to ingest the provided data into your relational schema, and then deriving data from your relational schema via a SQL query.
+## Overview
 
-Three CSV files are provided in the `sample_customer_data` folder. Your task is to ingest these files into a reasonably simple relational schema. It may be important to note:
-- These files represent uploads from three (fictionalized) Syndio clients. They contain data about (also fictionalized) employees at each client.
-- You can assume the `employee_id` column is a globally-specific ID (if two rows have the same `employee_id`, they are referring to the same person).
-- These files are denormalized; for the purposes of this exercise, please implement a simple normalized schema.
-- These fictionalized companies may have included typing/naming errors when uploading their data.
+This exercise is designed to test your ability to:
+1. Build a Python-based ETL that ingests raw CSV files, applies basic transformations, and loads data into SQLite.
+2. Use dbt to model that raw data into a dimensional schema and answer a business question.
 
-Once you have created your full relational schema and ingested the provided data, please develop a query to display the following:
-- Our internal teams would like to see the average employee compensation for each job group by gender. 
+You are free to use any AI assistance but at the end we want to see your code style, your SQL modeling choices, and your test coverage.
 
-You may choose to implement this exercise in either Golang or Python; the skeleton exercise for each language is provided
-here alongside this readme. Pick one of them and implement the transform of the incoming data files and insert the records
-into your provided sqlite schema.
+---
 
-The result of the exercise is the completed ETL code logic, the sqlite db file which contains the applied schema (table created) as well as a SQL query.
+## Repository Layout
 
-The next interview will build on your solution to this exercise, so be ready to talk through your solution and enhance it!
+```
+.
+├── ingest_exercise.py             # Python ETL skeleton
+├── requirements.txt               # Python dependencies (if any)
+├── sample_data/                   # Raw CSV uploads
+│   ├── company_a_employee_uploads.csv
+│   ├── company_b_employee_uploads.csv
+│   └── company_c_employee_uploads.csv
+├── employees.sqlite               # Empty SQLite database (to be populated)
+├── dbt_project/                   # dbt project for modeling
+│   ├── dbt_project.yml            # dbt project configuration
+│   ├── profiles.yml               # dbt connection profiles
+│   └── models/                    # dbt models
+│       ├── staging/               # Staging models
+│       │   ├── stg_employees.sql  # Staging model stub
+│       │   └── schema.yml         # Staging schema stub
+│       ├── intermediate/          # Intermediate models (optional)
+│       │   └── schema.yml         # Intermediate schema stub (no SQL file initially)
+│       └── marts/                 # Final models
+│           ├── employees.sql      # Employee dimension stub
+│           └── schema.yml         # Marts schema stub (no comparison model initially)
+└── README.md                      # This file
+```
 
-## Not Required
-- Tests
-- Documentation
-- Logging or anything more than basic error handling
+---
+
+## Part 1 – Python ETL
+
+**Goal:** Read the CSVs under `sample_data/`, normalize and enrich them, then write the results into a raw table in `employees.sqlite`.
+
+1. Add any external Python packages you use for the ETL script to `requirements.txt`.
+2. Implement the "transform" and "load" sections in `ingest_exercise.py`:
+   - Standardize column names.
+   - Parse dates into ISO 8601.
+   - Cast numeric fields.
+   - Create and load into a raw table:
+     - `raw_employees` (one row per CSV record)
+
+3. Run and verify:
+    ```bash
+    # Note: This script is already setup to ingest all CSV files from the specified directory.
+    python ingest_exercise.py \
+      --ingest-directory sample_data \
+      --db-filename employees.sqlite
+
+    sqlite3 employees.sqlite "SELECT COUNT(*) FROM raw_employees;" | cat
+    ```
+
+---
+
+## Part 2 – Data Modeling with dbt
+
+**Goal:** Build a dimensional model using dbt to analyze employee compensation relative to peer groups.
+
+**Business Problem:**
+Analyze how individual employee compensation compares to the average compensation within their defined peer group.
+A peer group is defined by `company_name`, `employee_job_grp`, and `employee_job_lvl`.
+The final model should allow slicing the comparison by various employee attributes (e.g., gender, race, location) and contain 1 unique row per employee_id. 
+
+**Understanding dbt for this Exercise:**
+dbt (data build tool) helps transform data in your warehouse (in this case, the SQLite database) by writing SQL `SELECT` statements. Here's a quick overview of the key files:
+*   **`.sql` files in `models/`:** These define your data models. Each file typically contains one `SELECT` statement. dbt compiles this SQL and runs it against your database to create views or tables. You'll build your staging, intermediate (optional), and final mart models here.
+*   **`.yml` files (e.g., `schema.yml`):** These files define metadata, descriptions, and tests for your models and their columns. Defining tests (like `not_null`, `unique`) helps ensure data quality.
+*   **`dbt_project.yml`:** Configures your dbt project (like the project name, model paths, and materialization defaults). You generally won't need to modify this file.
+*   **`profiles.yml`:** Defines how dbt connects to your database (credentials, database type, file path for SQLite). This file is pre-configured for this exercise.
+
+### Instructions
+
+1. Change directory into the dbt project:
+    ```bash
+    cd dbt_project
+    ```
+2. Install dbt:
+    ```bash
+    pip install dbt-core dbt-sqlite
+    ```
+3. In `models/staging/`, build the staging model `stg_employees` using `source('employees', 'raw_employees')`. Apply any necessary cleaning and casting.
+4. In `models/marts/`, build a clean `employees` dimension model from `staging` and/or `intermediate` models.
+5. Build the necessary models (potentially including intermediate models, though the structure is up to you) to create a final mart model that addresses the **Business Problem** defined above. You might name the final model `mart_employee_compensation_comparison` or choose another appropriate name.
+6. In your models' `schema.yml` files, define appropriate tests, and provide clear `description`s for each model and its columns.
+7. Run and test your models:
+    ```bash
+    # You might need to specify profiles dir and target depending on your setup
+    # e.g., dbt run --profiles-dir . --target dev
+    dbt run
+    dbt test
+    ```
+
+---
 
 ## Submission
-- Respond to the email you received for completing this exercise with:
-  - Zip file containing the ETL code, sqlite db file of your relation schema, and your query as well as any additional files you believe might be necessary or helpful
-- We'll run it and prepare feedback for the next part of the interview (if applicable)
 
-## Notes
-- We expect this to take no more than 120 minutes, please try and limit your effort to that window.
-- Anything extra (tests, other logic outside of the basic ETL) is not worth bonus points
-- We truly value your time and just want a basic benchmark and common piece of code to use in future interviews.
-- If we bring you in for in-person interviews we'll expand on this submission; don't spend too much time on individual minor decisions, as your overall thought process / architecture are most important.
+- Zip your project and submit the archive via the Greenhouse link from your email.
+- Include in your README:
+  - A short summary of your modeling decisions (e.g., why you chose certain intermediate steps or calculations).
+  - Example SQL query/output demonstrating how your final model addresses the compensation comparison problem.
+- We will evaluate:
+  - Functionality and correctness of the ETL process.
+  - Overall code quality and adherence to best practices.
+  - Soundness and clarity of the data modeling approach.
+  - Appropriateness of data validation and testing.
+  - Quality of documentation (e.g., model/column descriptions, README notes).
+
+---
+
+Good luck!

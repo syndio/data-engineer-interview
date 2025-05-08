@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: employees
+    tables:
+      - name: raw_employees
+
+models:
+  - name: stg_employees
+    description: "Staging model for raw_employees" 

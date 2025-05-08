@@ -1,0 +1,7 @@
+/.venv/
+/key/
+**/logs/
+**/target/
+.user.yml
+.DS_Store
+.cursor

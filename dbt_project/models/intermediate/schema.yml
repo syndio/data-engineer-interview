@@ -1,0 +1,16 @@
+# version: 2
+
+# models:
+  # Define schema specifications (descriptions, tests, etc.) for any
+  # intermediate models you create here.
+  #
+  # Intermediate models help break down complex logic into smaller, reusable steps.
+  # They are typically materialized as views or tables within dbt.
+  #
+  # Example:
+  # - name: int_your_intermediate_model
+  #   description: "Brief description of what this intermediate model does."
+  #   columns:
+  #     - name: column_a
+  #       tests:
+  #         - not_null 
